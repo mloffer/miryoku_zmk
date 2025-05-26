@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Corne-ish Zen Custom'
-on: push
+on: workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
